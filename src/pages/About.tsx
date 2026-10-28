@@ -6,15 +6,21 @@ export default function About() {
   useTitle("About", SITE.aboutBlurb);
   return (
     <div className="prose page-narrow">
-      <h1>About</h1>
+      <h1>The Committee</h1>
       <p>
-        Hey, I'm {SITE.author}. {SITE.aboutBlurb}
+        Hey, I'm {SITE.author1}. {SITE.aboutBlurb1}
+      </p>
+      <p>
+        Hola, I'm {SITE.author2}. {SITE.aboutBlurb2}
+      </p>
+      <p>
+        Buenos Dias, I'm {SITE.author3}. {SITE.aboutBlurb3}
       </p>
       <h2>How we score</h2>
       <p>
-        Every entry gets a score out of {SCORE_MAX}. Burgers and fries are
-        ranked separately, and we never compare the two. The price is
-        irrelevant, although there are special tags regarding price and value.
+        Every burger and every fry gets a separate rank. We don't care about
+        price, brand, or area. There can be special tags for a good value burger
+        or fry.
       </p>
       <ul>
         {TIERS.map((t) => (
