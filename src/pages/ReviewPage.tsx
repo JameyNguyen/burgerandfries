@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import FoodImage from '../components/FoodImage';
 import TierBadge from '../components/TierBadge';
-import { CATEGORIES, SCORE_MAX } from '../config/tiers';
+import { CATEGORIES } from '../config/tiers';
 import { getEntry, getNeighbors, isCategory } from '../data';
 import { formatDate } from '../lib/ranking';
 import { useTitle } from '../lib/useTitle';
@@ -32,7 +32,6 @@ export default function ReviewPage() {
         <p className="restaurant">
           {entry.restaurant}{entry.location ? `, ${entry.location}` : ''}{date ? `. Tried ${date}.` : ''}
         </p>
-        <p className="score score--lg">{entry.score.toFixed(1)}<small>/{SCORE_MAX}</small> <span className="rank-note">#{entry.position} in {entry.category}</span></p>
       </header>
       <FoodImage entry={entry} />
       {entry.isSample && <p className="sample">Sample entry. Replace it with your own review.</p>}
