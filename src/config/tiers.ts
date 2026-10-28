@@ -1,7 +1,5 @@
 import type { Category, TierDef } from '../types';
 
-export const SCORE_MAX = 10;
-
 // Ordered best to worst. Change thresholds, names and colors here only.
 export const TIERS: TierDef[] = [
   { id: 'S', label: 'S tier', description: '"Every weekend", "First thing that comes to mind", "Gotta Splurge"', minScore: 9, color: '#B3321E', textColor: '#FFF8EC' },
