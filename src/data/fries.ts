@@ -1,0 +1,45 @@
+import type { FoodEntry } from '../types';
+
+// SAMPLE DATA: fictional entries that show the format. Replace with your own.
+export const fries: FoodEntry[] = [
+  {
+    id: 'fries-001',
+    slug: 'sample-shoestring',
+    category: 'fries',
+    name: 'Shoestring Fries',
+    restaurant: 'Sample Diner',
+    location: 'Anytown',
+    score: 9.4,
+    shortDescription: 'Sample entry. Thin, shatteringly crisp and salted at the right moment.',
+    review: ['Sample review. Describe the crunch, the seasoning and how they hold up.'],
+    dateTried: '2025-01-18',
+    tastingNotes: ['Very crisp', 'Well salted'],
+    pros: ['Stay crisp to the last fry'],
+    featured: true,
+    isSample: true,
+  },
+  {
+    id: 'fries-002',
+    slug: 'sample-steak-cut',
+    category: 'fries',
+    name: 'Steak Fries',
+    restaurant: 'Demo Burger Co.',
+    location: 'Anytown',
+    score: 7.0,
+    shortDescription: 'Sample entry. Fluffy inside, a bit pale outside.',
+    review: ['Sample review. Replace this text with your own notes.'],
+    isSample: true,
+  },
+  {
+    id: 'fries-003',
+    slug: 'sample-frozen-crinkle',
+    category: 'fries',
+    name: 'Crinkle Cut',
+    restaurant: 'Placeholder Grill',
+    location: 'Elsewhere',
+    score: 4.6,
+    shortDescription: 'Sample entry. Limp by the time they reached the table.',
+    review: ['Sample review. Replace this text with your own notes.'],
+    isSample: true,
+  },
+];

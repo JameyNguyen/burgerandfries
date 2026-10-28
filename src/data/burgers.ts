@@ -1,0 +1,51 @@
+import type { FoodEntry } from '../types';
+
+// SAMPLE DATA: fictional entries that show the format. Replace with your own.
+export const burgers: FoodEntry[] = [
+  {
+    id: 'burger-001',
+    slug: 'sample-corner-smash',
+    category: 'burgers',
+    name: 'The Corner Smash',
+    restaurant: 'Sample Diner',
+    location: 'Anytown',
+    score: 9.2,
+    shortDescription: 'Sample entry. Double smash patty with a lacy crust and a soft potato bun.',
+    review: [
+      'This is a sample review. Write two or three paragraphs about what you ate, what stood out and whether you would go back.',
+      'Each string in the review array renders as its own paragraph.',
+    ],
+    dateTried: '2025-01-18',
+    tastingNotes: ['Crisp beef edges', 'Tangy sauce', 'Steamed bun'],
+    pros: ['Great crust', 'Balanced toppings'],
+    cons: ['Gets messy fast'],
+    tags: ['smash', 'double'],
+    featured: true,
+    isSample: true,
+  },
+  {
+    id: 'burger-002',
+    slug: 'sample-green-chile',
+    category: 'burgers',
+    name: 'Green Chile Melt',
+    restaurant: 'Demo Burger Co.',
+    location: 'Anytown',
+    score: 8.1,
+    shortDescription: 'Sample entry. Thick patty, roasted chile and plenty of cheese.',
+    review: ['Sample review. Replace this text with your own notes.'],
+    tastingNotes: ['Smoky', 'Juicy'],
+    isSample: true,
+  },
+  {
+    id: 'burger-003',
+    slug: 'sample-plain-single',
+    category: 'burgers',
+    name: 'Plain Single',
+    restaurant: 'Placeholder Grill',
+    location: 'Elsewhere',
+    score: 5.4,
+    shortDescription: 'Sample entry. Fine, forgettable, a little dry.',
+    review: ['Sample review. Not every entry needs to be a rave.'],
+    isSample: true,
+  },
+];
