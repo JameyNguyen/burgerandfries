@@ -1,5 +1,5 @@
 export const SITE = {
-  name: 'Stack & Salt',
+  name: 'Burger and Fries',
   tagline: 'Burgers and fries, ranked by one person with opinions.',
   author: 'Your name',
   aboutBlurb: 'A personal ranking of the burgers and fries I have tried. Scores are mine, rankings are final until the next great burger.',

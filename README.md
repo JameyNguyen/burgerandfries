@@ -1,4 +1,4 @@
-# Stack & Salt
+# Burger and Fries
 
 A personal burger and fries ranking blog. React, Vite, TypeScript, React Router. No backend.
 
