@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { SCORE_MAX } from '../config/tiers';
 import type { RankedEntry } from '../types';
 import TierBadge from './TierBadge';
 
@@ -14,7 +13,6 @@ export default function RankedList({ entries }: { entries: RankedEntry[] }) {
             <span className="restaurant">{e.restaurant}</span>
           </div>
           <TierBadge tier={e.tier} />
-          <span className="score">{e.score.toFixed(1)}<small>/{SCORE_MAX}</small></span>
         </li>
       ))}
     </ol>
