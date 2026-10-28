@@ -1,4 +1,4 @@
-import { SCORE_MAX, TIERS } from "../config/tiers";
+import { TIERS } from "../config/tiers";
 import { SITE } from "../config/site";
 import { useTitle } from "../lib/useTitle";
 
