@@ -11,10 +11,7 @@ export default function Home() {
     <>
       <section className="hero">
         <h1>{SITE.tagline}</h1>
-        <p>
-          Rankings of the burgers and fries the committee has tried. D - S tier
-          lists. Every entry has a full review.
-        </p>
+        <p>Rankings of the burgers and fries The Committee has tried.</p>
         <p className="hero-links">
           {CATEGORY_IDS.map((id) => (
             <Link key={id} className="btn" to={`/${id}`}>

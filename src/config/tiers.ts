@@ -4,11 +4,11 @@ export const SCORE_MAX = 10;
 
 // Ordered best to worst. Change thresholds, names and colors here only.
 export const TIERS: TierDef[] = [
-  { id: 'S', label: 'S tier', description: 'Exceptional. Among the best I have had.', minScore: 9, color: '#B3321E', textColor: '#FFF8EC' },
-  { id: 'A', label: 'A tier', description: 'Excellent. I would go back tomorrow.', minScore: 8, color: '#E3B02E', textColor: '#1E2A1C' },
-  { id: 'B', label: 'B tier', description: 'Good. Happy to eat it again.', minScore: 6.5, color: '#4F7A2B', textColor: '#FFF8EC' },
-  { id: 'C', label: 'C tier', description: 'Average or inconsistent.', minScore: 5, color: '#5E7380', textColor: '#FFF8EC' },
-  { id: 'D', label: 'D tier', description: 'Below average. Skip it.', minScore: 0, color: '#7A6F66', textColor: '#FFF8EC' },
+  { id: 'S', label: 'S tier', description: '"Every weekend", "First thing that comes to mind", "Gotta Splurge"', minScore: 9, color: '#B3321E', textColor: '#FFF8EC' },
+  { id: 'A', label: 'A tier', description: '"would come back to again", "something special about it", "ooh shii"', minScore: 8, color: '#E3B02E', textColor: '#1E2A1C' },
+  { id: 'B', label: 'B tier', description: '"i\'d eat it if it was given to me", "yo any coupons" "it\'s yummy"', minScore: 6.5, color: '#4F7A2B', textColor: '#FFF8EC' },
+  { id: 'C', label: 'C tier', description: '"edible", "last thing I would pick", "wouldn\'t come back", "wouldn\'t even remember this restaurant", "lets just go to kwikstar"', minScore: 5, color: '#5E7380', textColor: '#FFF8EC' },
+  { id: 'F', label: 'F tier', description: '"not willing to finish it", "unsafe to eat", "raw", "cafeteria level meal"', minScore: 0, color: '#7A6F66', textColor: '#FFF8EC' },
 ];
 
 export interface CategoryConfig {
